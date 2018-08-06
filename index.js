@@ -19,11 +19,10 @@ app.get('/', function(req,res){
 });
 
 var fortunes = [
-    "Conquer your fears or they will conquer you.",
-    "Rivers need springs.",
-    "Do not fear what you don't know.",
-    "You will have a pleasant surprise.",
-    "Whenever possible, keep it simple.",
+    "Carpe Diem!",
+    "Do not eat yellow snow.",
+    "Enjoy your life.",
+    "You may find happiness today",
 ];
 
 app.get('/about', function(req, res){
