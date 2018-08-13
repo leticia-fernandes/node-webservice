@@ -7,14 +7,18 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" :  { 
-    "type" : "git",
-     "url" : "https://github.com/leticia-fernandes/node-webservice.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leticia-fernandes/node-webservice.git"
   },
   "author": "leticia-fernandes",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   }
 }
